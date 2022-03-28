@@ -1,0 +1,173 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.absolute {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 75%;
+    width: 75%;
+    transform: translate(-50%, -50%);
+}
+
+.caixa-1 {
+    background-color: blue;
+}
+
+.caixa-2 {
+    background-color: red;
+}
+
+.caixa-3 {
+    background-color: black;
+}
+
+.caixa-4 {
+    background-color: green;
+}
+
+.caixa-5 {
+    background-color: yellow;
+}
+
+/*exercicio 2*/
+
+.caixa_preta {
+    background-color: black;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+}
+
+.top-left {
+    top: 0px;
+    left: 0px;
+}
+
+.top-right {
+    top: 0px;
+    right: 0px;
+}
+
+.button-left {
+    bottom: 0px;
+    left: 0px;
+}
+
+.button-right {
+    bottom: 0px;
+    right: 0px;
+}
+
+/*exercicio 3*/
+
+.texto_1 {
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border-radius: 10px;
+    height: 200px;
+    width: 1000px;
+}
+
+.texto_2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 50px;
+    background-color: black;
+    height: 200px;
+    width: 1000px;
+}
+
+.texto_grande {
+    padding: 20px;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 20px;
+    color: white;
+}
+
+.texto_pequeno {
+    overflow-y: scroll;
+    padding: 20px;
+    text-align: right;
+    font-size: 20px;
+    color: white;
+    height: 157px;
+    border: 2px solid red;
+}
+
+/*exercicio 4*/
+
+.preto_caixa {
+    background-color: black;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+
+.top_left {
+    top: 0px;
+    left: 0px;
+}
+
+.top_left2 {
+    top: 0px;
+    left: 110px;
+}
+
+.top_left3 {
+    top: 0px;
+    left: 220px;
+}
+
+.mid_left {
+    top: 110px;
+    left: 0px;
+}
+
+.mid_left2 {
+    top: 110px;
+    left: 110px;
+}
+
+.button_left {
+    top: 220px;
+    left: 0px;
+}
+
+.button_right {
+    bottom: 0px;
+    right: 0px;
+}
+
+.button_right2 {
+    bottom: 0px;
+    right: 110px;
+}
+
+.button_right3 {
+    bottom: 0px;
+    right: 220px;
+}
+
+.mid_right {
+    bottom: 110px;
+    right: 0px;
+}
+
+.mid_right2 {
+    bottom: 110px;
+    right: 110px;
+}
+
+.top_right {
+    bottom: 220px;
+    right: 0px;
+}
